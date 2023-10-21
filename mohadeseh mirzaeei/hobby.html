@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hobby</title>
+   <link rel="stylesheet" type="text/css" href="./css/hobby.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="./index.html">صفحه اصلی</a></li>
+      <li><a href="./training.html">آموزش ها</a></li>
+      <li><a href="./register.html">ثبت نام</a></li>
+      <li><a href="./hobby.html">سرگرمی </a></li>
+    </ul>
+  </nav>
+
+
+    <h1>لوگو حدس بزن </h1>
+    <p>نام زبان برنامه نویسی رو انتخاب کنید </p>
+    <div id="logoContainer" onclick="changeLogo()"></div>
+    <select id="languageSelect">
+        <option value=""> زبان رو انتخاب کن </option>
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="css">css</option>
+        <option value="java">Java</option>
+        
+    </select><br>
+    <button onclick="checkAnswer()" class="btn">کلیک کن </button>
+    <p id="result"></p>
+
+    <script src="./js/hobby.js"></script>
+</body>
+</html>
